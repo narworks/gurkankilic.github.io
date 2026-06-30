@@ -1,17 +1,31 @@
-<h3>Gurkan Kilic Personal Web Site - 2020</h3>
-<p>Html5 with Material Design</p>
-<a href="http://www.gurkankilic.com"/>gurkankilic.com</a>
+# G. Gürkan Kılıç — Personal Portfolio
 
-<br>
+Kişisel portföy sitesi · **[gurkankilic.com](https://gurkankilic.com)**
 
-<h4>Documents</h4>
-<p>
-  <a href="http://daemonite.github.io/material/">
-    <h5>MaterializeCSS</h2>
-  </a>
-</p>
-<p>
-  <a href="https://google.github.io/material-design-icons/">
-    <h5>Material Design Icons</h2>
-  </a>
-</p>
+İki dilli (TR/EN) editöryel tek-sayfa portföy. GitHub Pages üzerinde statik olarak yayınlanır.
+
+## İçerik
+
+- **Hero** — otomatik dönen 3 slaytlı tanıtım
+- **Hakkımda** — özet, biyografi, istatistikler ve yetenekler
+- **Projeler** — Portfoymax, Muhasebe Asistanı, Nar Menu, XR & Indie Oyunlar
+- **Deneyim** — kariyer zaman çizelgesi
+- **Narworks** — girişim stüdyosu bölümü
+- **İletişim**
+
+## Yapı
+
+| Dosya | Açıklama |
+|-------|----------|
+| `index.html` | Sayfanın tamamı (içerik + bileşen) |
+| `support.js` | Claude Design `dc-runtime` (React'ı çalışma anında yükler) |
+| `image-slot.js` | Hero görsel bileşeni |
+| `uploads/` | Proje kartı arka plan görselleri |
+| `favicon.svg` | GK monogram favicon |
+| `CNAME` | Özel alan adı (gurkankilic.com) |
+
+## Notlar
+
+- Tasarım bir **Claude Design** projesinden taşınmıştır.
+- `dc-runtime`, React/ReactDOM ve Babel'i çalışma anında `unpkg` CDN'inden yükler.
+- Yerelde önizleme: `python3 -m http.server 8000` → `http://localhost:8000`

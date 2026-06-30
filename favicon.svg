@@ -1,0 +1,6 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100" height="100" fill="#220C0F"/>
+  <circle cx="50" cy="42" r="20" fill="none" stroke="#C5362C" stroke-width="3"/>
+  <circle cx="50" cy="42" r="7" fill="#8C1D2B"/>
+  <text x="50" y="78" font-family="Georgia, serif" font-style="italic" font-size="15" fill="#F4EBDD" text-anchor="middle">GK</text>
+</svg>
